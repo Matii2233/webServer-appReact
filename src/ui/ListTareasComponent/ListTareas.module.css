@@ -1,0 +1,35 @@
+.listTareasContainerA {
+    max-width: 100vw;
+    max-height: 100vh;
+    padding: 60px 0px 60px 0px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.listTareasContainerB {
+    width: 26vw;
+    height: 70vh;
+    background-color: #ffffff;
+    padding: 20px 0px 30px 0px;
+    border-radius: 20px;
+    background-color: #f4c05e;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.listTareas {
+    max-height: 60vh;
+    overflow-y:auto;
+    padding: 28vh 1vh 0vh 0vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

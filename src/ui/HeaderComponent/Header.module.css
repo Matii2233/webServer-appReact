@@ -1,0 +1,25 @@
+.headerContainer {
+    color: rgb(40, 60, 90);
+    background-color: #f4c05e;
+    width: 100vw;
+    height: 7vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.buttonsContainer {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.headerContainer button {
+    width: 80px;
+}
